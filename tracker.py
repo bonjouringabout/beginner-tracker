@@ -10,4 +10,6 @@ things = [thing1, thing2]
 print()
 print("Hi", name, "!")
 print("Your tracker contains:")
-print(things)
+
+for thing in things:
+    print("-", thing)
